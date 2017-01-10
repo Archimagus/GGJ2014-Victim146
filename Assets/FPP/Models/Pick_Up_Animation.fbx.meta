@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: f8bf2092b559db2409f500a58e142b6e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: joint1
+    100002: LT_Elbow
+    100004: LT_Index_End
+    100006: LT_Index_Mid
+    100008: LT_Index_Root
+    100010: LT_Index_Tip
+    100012: LT_Low_Wrist
+    100014: LT_Middle_End
+    100016: LT_Middle_Mid
+    100018: LT_Middle_Root
+    100020: LT_Middle_Tip
+    100022: LT_Palm
+    100024: LT_Pinky_End
+    100026: LT_Pinky_Mid
+    100028: LT_Pinky_Root
+    100030: LT_Pinky_Tip
+    100032: LT_Ring_End
+    100034: LT_Ring_Mid
+    100036: LT_Ring_Root
+    100038: LT_Ring_Tip
+    100040: LT_Shoulder
+    100042: LT_Thumb_End
+    100044: LT_Thumb_Mid
+    100046: LT_Thumb_Root
+    100048: LT_Thumb_Tip
+    100050: LT_Up_Wrist
+    100052: //RootNode
+    100054: polySurface11
+    100056: polySurface5
+    100058: polySurface6
+    100060: polySurface7
+    100062: RT_Elbow
+    100064: RT_Index_End
+    100066: RT_Index_Mid
+    100068: RT_Index_Root
+    100070: RT_Index_Tip
+    100072: RT_Low_Wrist
+    100074: RT_Middle_End
+    100076: RT_Middle_Mid
+    100078: RT_Middle_Root
+    100080: RT_Middle_Tip
+    100082: RT_Palm
+    100084: RT_Pinky_End
+    100086: RT_Pinky_Mid
+    100088: RT_Pinky_Root
+    100090: RT_Pinky_Tip
+    100092: RT_Ring_End
+    100094: RT_Ring_Mid
+    100096: RT_Ring_Root
+    100098: RT_Ring_Tip
+    100100: RT_Shoulder
+    100102: RT_Thumb_End
+    100104: RT_Thumb_Mid
+    100106: RT_Thumb_Root
+    100108: RT_Thumb_Tip
+    100110: RT_Up_Wrist
+    100112: transform1
+    400000: joint1
+    400002: LT_Elbow
+    400004: LT_Index_End
+    400006: LT_Index_Mid
+    400008: LT_Index_Root
+    400010: LT_Index_Tip
+    400012: LT_Low_Wrist
+    400014: LT_Middle_End
+    400016: LT_Middle_Mid
+    400018: LT_Middle_Root
+    400020: LT_Middle_Tip
+    400022: LT_Palm
+    400024: LT_Pinky_End
+    400026: LT_Pinky_Mid
+    400028: LT_Pinky_Root
+    400030: LT_Pinky_Tip
+    400032: LT_Ring_End
+    400034: LT_Ring_Mid
+    400036: LT_Ring_Root
+    400038: LT_Ring_Tip
+    400040: LT_Shoulder
+    400042: LT_Thumb_End
+    400044: LT_Thumb_Mid
+    400046: LT_Thumb_Root
+    400048: LT_Thumb_Tip
+    400050: LT_Up_Wrist
+    400052: //RootNode
+    400054: polySurface11
+    400056: polySurface5
+    400058: polySurface6
+    400060: polySurface7
+    400062: RT_Elbow
+    400064: RT_Index_End
+    400066: RT_Index_Mid
+    400068: RT_Index_Root
+    400070: RT_Index_Tip
+    400072: RT_Low_Wrist
+    400074: RT_Middle_End
+    400076: RT_Middle_Mid
+    400078: RT_Middle_Root
+    400080: RT_Middle_Tip
+    400082: RT_Palm
+    400084: RT_Pinky_End
+    400086: RT_Pinky_Mid
+    400088: RT_Pinky_Root
+    400090: RT_Pinky_Tip
+    400092: RT_Ring_End
+    400094: RT_Ring_Mid
+    400096: RT_Ring_Root
+    400098: RT_Ring_Tip
+    400100: RT_Shoulder
+    400102: RT_Thumb_End
+    400104: RT_Thumb_Mid
+    400106: RT_Thumb_Root
+    400108: RT_Thumb_Tip
+    400110: RT_Up_Wrist
+    400112: transform1
+    2300000: polySurface11
+    3300000: polySurface11
+    4300000: polySurface11
+    4300002: polySurface6
+    4300004: polySurface7
+    7400000: PickUp
+    9500000: //RootNode
+    13700000: polySurface6
+    13700002: polySurface7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PickUp
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/LT_Shoulder
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Index_Root
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Index_Root/LT_Index_Mid
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Index_Root/LT_Index_Mid/LT_Index_Tip
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Index_Root/LT_Index_Mid/LT_Index_Tip/LT_Index_End
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Middle_Root
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Middle_Root/LT_Middle_Mid
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Middle_Root/LT_Middle_Mid/LT_Middle_Tip
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Middle_Root/LT_Middle_Mid/LT_Middle_Tip/LT_Middle_End
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Pinky_Root
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Pinky_Root/LT_Pinky_Mid
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Pinky_Root/LT_Pinky_Mid/LT_Pinky_Tip
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Pinky_Root/LT_Pinky_Mid/LT_Pinky_Tip/LT_Pinky_End
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Ring_Root
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Ring_Root/LT_Ring_Mid
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Ring_Root/LT_Ring_Mid/LT_Ring_Tip
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Ring_Root/LT_Ring_Mid/LT_Ring_Tip/LT_Ring_End
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Thumb_Root
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Thumb_Root/LT_Thumb_Mid
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Thumb_Root/LT_Thumb_Mid/LT_Thumb_Tip
+        weight: 1
+      - path: joint1/LT_Shoulder/LT_Elbow/LT_Up_Wrist/LT_Low_Wrist/LT_Palm/LT_Thumb_Root/LT_Thumb_Mid/LT_Thumb_Tip/LT_Thumb_End
+        weight: 1
+      - path: joint1/RT_Shoulder
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/polySurface11
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Index_Root
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Index_Root/RT_Index_Mid
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Index_Root/RT_Index_Mid/RT_Index_Tip
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Index_Root/RT_Index_Mid/RT_Index_Tip/RT_Index_End
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Middle_Root
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Middle_Root/RT_Middle_Mid
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Middle_Root/RT_Middle_Mid/RT_Middle_Tip
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Middle_Root/RT_Middle_Mid/RT_Middle_Tip/RT_Middle_End
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Pinky_Root
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Pinky_Root/RT_Pinky_Mid
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Pinky_Root/RT_Pinky_Mid/RT_Pinky_Tip
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Pinky_Root/RT_Pinky_Mid/RT_Pinky_Tip/RT_Pinky_End
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Ring_Root
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Ring_Root/RT_Ring_Mid
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Ring_Root/RT_Ring_Mid/RT_Ring_Tip
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Ring_Root/RT_Ring_Mid/RT_Ring_Tip/RT_Ring_End
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Thumb_Root
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Thumb_Root/RT_Thumb_Mid
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Thumb_Root/RT_Thumb_Mid/RT_Thumb_Tip
+        weight: 1
+      - path: joint1/RT_Shoulder/RT_Elbow/RT_Up_Wrist/RT_Low_Wrist/RT_Palm/RT_Thumb_Root/RT_Thumb_Mid/RT_Thumb_Tip/RT_Thumb_End
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/transform1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

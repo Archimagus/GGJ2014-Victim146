@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: d5a9ead5fc578494c960dc76f10c4500
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: meatlockerdoor
+    100002: //RootNode
+    100004: meatlockerdoorframeMesh
+    100006: meatlockerdoorhandleMesh
+    100008: meatlockerdoorMesh
+    100010: polySurface6
+    400000: meatlockerdoor
+    400002: //RootNode
+    400004: meatlockerdoorframeMesh
+    400006: meatlockerdoorhandleMesh
+    400008: meatlockerdoorMesh
+    400010: polySurface6
+    2300000: meatlockerdoorframeMesh
+    2300002: meatlockerdoorhandleMesh
+    2300004: meatlockerdoorMesh
+    2300006: polySurface6
+    3300000: meatlockerdoorframeMesh
+    3300002: meatlockerdoorhandleMesh
+    3300004: meatlockerdoorMesh
+    3300006: polySurface6
+    4300000: meatlockerdoorframeMesh
+    4300002: meatlockerdoorMesh
+    4300004: polySurface6
+    4300006: meatlockerdoorhandleMesh
+    7400000: MeatLockerDoorOpen
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MeatLockerDoorOpen
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: meatlockerdoor
+        weight: 1
+      - path: meatlockerdoor/meatlockerdoorhandleMesh
+        weight: 1
+      - path: meatlockerdoor/meatlockerdoorMesh
+        weight: 1
+      - path: meatlockerdoor/polySurface6
+        weight: 1
+      - path: meatlockerdoorframeMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
